@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Il mio form</h1>
+        <form action="#" method="GET">
+            <div>
+                <label for="firstname">Nome </label>
+                <input id="firstname" type="text"
+                    placeholder="Scrivi qualcosa di Testo" />
+                <!-- A carattere Libero e quindi ho il placeholder-->
+            </div>
+            <div>
+                <label for="lastname">Cognome </label>
+                <input id="lastname" type="text"
+                    placeholder="Scrivi qualcosa di Testo" />
+                <!-- A carattere Libero e quindi ho il placeholder-->
+            </div>
+            <div>
+                <label for="phone">Telefono</label>
+                <input id="phone" type="number"
+                    placeholder="Scrivi qualcosa numerico" />
+                <!-- A carattere Libero e quindi ho il placeholder-->
+            </div>
+            <div>
+                <label for="document">Carica CV</label>
+                <input id="document" type="file" />
+            </div>
+            <div>
+                <label for="birthday">Anno Di nascita</label>
+                <input id="birthday" type="date" />
+            </div>
+            <div>
+                <label for="full-remote">Full Remote</label>
+                <input type="checkbox" name="work" id="full-remote" />
+                <label for="hybrid">Ibrido</label>
+                <input type="checkbox" id="hybrid" name="work" />
+                <label for="local">In Sede</label>
+                <input type="checkbox" id="local" name="work" />
+            </div>
+            <div>
+                <label for="foreign1">Disponibile Traferimento Si</label>
+                <input type="radio" name="local" id="foreign1" />
+                <label for="foreign2">Disponibile Traferimento No</label>
+                <input type="radio" name="local" id="foreign2" />
+            </div>
+            <button type="submit">Invia</button>
+        </form>
+    </body>
+</html>
